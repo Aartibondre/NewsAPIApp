@@ -1,0 +1,20 @@
+This file contains about what is basically done in this project.
+
+The file index.html contains everything- HTML, CSS, JS.
+I have used bootstrap for designing the homepage.
+I have installed live server for the api.
+I have specifically used Navbar and Card from the bootstrap documentation.
+
+CSS basics for changing color, size, image and anything else needed.
+
+
+JS:
+Firstly, I have used NEWS API here which requires License for production, so I have used a free version available for development.
+https://newsapi.org/ - get your api key from here. Just replace your api key in the index.html file 
+You have to create your own account on the above website and get your API Key. Do not use my key as I will definitely change it for privacy.
+Make a function to access news using fetchNews() and use fetch api.
+Include language and apikey.
+I have used addEventListener for onclick button.
+Then convert output to JSON().
+Access the response and create divs to display news using for of loop.
+As the deployment is paid, we cannot use News api but we can deploy it on localhost using LINODE or any other cloud technology.
